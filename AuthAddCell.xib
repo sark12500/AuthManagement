@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AuthAddCell" id="gTV-IL-0wX" customClass="AuthAddCell" customModule="QuantaCMP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="102"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="102"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a_img_user.png" translatesAutoresizingMaskIntoConstraints="NO" id="NMr-VF-wZV">
+                        <rect key="frame" x="11" y="6" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="Nmv-yH-eod"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a_img_delete.png" translatesAutoresizingMaskIntoConstraints="NO" id="zBF-uu-PRb">
+                        <rect key="frame" x="40" y="8" width="20" height="20"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ya-g4-yrH">
+                        <rect key="frame" x="0.0" y="51" width="70" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="8Ya-g4-yrH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3uy-KQ-aAd"/>
+                <constraint firstItem="8Ya-g4-yrH" firstAttribute="top" secondItem="NMr-VF-wZV" secondAttribute="bottom" constant="-3" id="5Ie-l2-vbc"/>
+                <constraint firstItem="NMr-VF-wZV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="topMargin" constant="-2" id="IMD-wV-gaE"/>
+                <constraint firstItem="8Ya-g4-yrH" firstAttribute="top" secondItem="zBF-uu-PRb" secondAttribute="bottom" constant="23" id="J4M-Zq-Ypx"/>
+                <constraint firstItem="zBF-uu-PRb" firstAttribute="trailing" secondItem="NMr-VF-wZV" secondAttribute="trailing" constant="1" id="Nux-B2-PAg"/>
+                <constraint firstItem="NMr-VF-wZV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="SdI-a7-Tuf"/>
+                <constraint firstItem="zBF-uu-PRb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="40" id="UJE-6a-5wz"/>
+                <constraint firstItem="8Ya-g4-yrH" firstAttribute="centerX" secondItem="NMr-VF-wZV" secondAttribute="centerX" id="dhL-rE-Vng"/>
+                <constraint firstItem="zBF-uu-PRb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="dzq-9e-IrG"/>
+                <constraint firstItem="8Ya-g4-yrH" firstAttribute="bottom" secondItem="gTV-IL-0wX" secondAttribute="bottomMargin" constant="2" id="mDl-6m-Tfa"/>
+                <constraint firstItem="NMr-VF-wZV" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="roN-DM-9yb"/>
+            </constraints>
+            <size key="customSize" width="81" height="98"/>
+            <connections>
+                <outlet property="cancelImg" destination="zBF-uu-PRb" id="Ma2-Cb-iBF"/>
+                <outlet property="userImg" destination="NMr-VF-wZV" id="B8t-gZ-elv"/>
+                <outlet property="userName" destination="8Ya-g4-yrH" id="hzY-B1-FYr"/>
+            </connections>
+            <point key="canvasLocation" x="248" y="237"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="a_img_delete.png" width="22" height="22"/>
+        <image name="a_img_user.png" width="48" height="48"/>
+    </resources>
+</document>
