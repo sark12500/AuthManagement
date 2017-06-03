@@ -109,7 +109,7 @@ class GetProduct: ApiBase,ApiCommand
         switch apiType{
             //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/Solmgmt/api/SolMgmtApi/GetMySolutions"
+            path = "http://x.x.x.x./Solmgmt/api/SolMgmtApi/GetMySolutions"
             break
             //測試區API
         case .Test:
@@ -154,7 +154,7 @@ class GetRole: ApiBase,ApiCommand
         switch apiType{
             //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/SolmgmtApi/api/SolmgmtApi/GetRoleListById2"
+            path = "http://x.x.x.x./SolmgmtApi/api/SolmgmtApi/GetRoleListById2"
             break
             //測試區API
         case .Test:
@@ -198,7 +198,7 @@ class GetMember: ApiBase,ApiCommand
         switch apiType{
             //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/SolmgmtApi/api/SolmgmtApi/QueryMember"
+            path = "http://x.x.x.x/SolmgmtApi/api/SolmgmtApi/QueryMember"
             break
             //測試區API
         case .Test:
@@ -242,7 +242,7 @@ class AddMember: ApiBase,ApiCommand
         switch apiType{
             //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/SolmgmtApi/api/SolmgmtApi/AddRoleUsers"
+            path = "http://x.x.x.x/SolmgmtApi/api/SolmgmtApi/AddRoleUsers"
             break
             //測試區API
         case .Test:
@@ -289,7 +289,7 @@ class DeleteMember: ApiBase,ApiCommand
         switch apiType{
             //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/SolmgmtApi/api/SolmgmtApi/DeleteRoleUsers"
+            path = "http://x.x.x.x/SolmgmtApi/api/SolmgmtApi/DeleteRoleUsers"
             break
             //測試區API
         case .Test:
@@ -334,7 +334,7 @@ class GetDepartmentNextLevel: ApiBase,ApiCommand
         switch apiType{
             //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/SolmgmtApi/api/SolmgmtApi/GetDepartmentNextLevel"
+            path = "http://x.x.x.x/SolmgmtApi/api/SolmgmtApi/GetDepartmentNextLevel"
             break
             //測試區API
         case .Test:
@@ -379,7 +379,7 @@ class GetOneRoleOthersById: ApiBase,ApiCommand
         switch apiType{
         //正式區API
         case .Release:
-            path = "http://camp.quanta-camp.com/SolmgmtApi/api/SolmgmtApi/GetOneRoleOthersById"
+            path = "http://x.x.x.x/SolmgmtApi/api/SolmgmtApi/GetOneRoleOthersById"
             break
         //測試區API
         case .Test:
