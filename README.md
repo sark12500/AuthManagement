@@ -5,5 +5,6 @@ Basic useful feature list:
  * Swift 2.3
  * Xcode 8
  
-<img src='https://files.jandi.com/files-private/11444574/52b710512f1317b69b7064a99ff3f1da.png'></img>
+ [id]: https://files.jandi.com/files-private/11444574/52b710512f1317b69b7064a99ff3f1da.png  "Optional title attribute"
+
  
