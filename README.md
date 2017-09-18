@@ -5,4 +5,4 @@ Basic feature list:
  * Swift 2.3
  * Xcode 8
 
-<img src="1_company.png">
+<img src="1_company.png" height="260" width="140">
