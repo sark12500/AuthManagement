@@ -4,6 +4,7 @@ Basic feature list:
 
  * Swift 2.3
  * Xcode 8
+ * MVVM
 
 <img src="1_company.png" height="400" width="240">
 <img src="2_roleList.png" height="400" width="240">
